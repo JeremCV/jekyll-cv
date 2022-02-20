@@ -1,6 +1,6 @@
-name: John Doe
+name: Testing
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
