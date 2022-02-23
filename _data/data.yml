@@ -1,43 +1,95 @@
-name: Testing
+name: Jeremie Cloutier-Vilhuber
 support_dark_mode: true
 fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
+  email:
+    - jeremie@cloutier-vilhuber.net
+    - jeremie.cloutier-vilhuber@polymtl.ca
+  github: JeremCV
+  linkedin:
+  phone: (514)-574-6475
+  gitlab: JeremCV
   twitter: 
 
 languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - fr:
+    - idiom: Français
+    - idiom: Anglais
+    - idiom: Allemand
+
+  - eng:
+    - idiom: French
+    - idiom: English
+    - idiom: German
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - fr:
+    - degree: Baccalauréat en Génie Informatique
+      GPA: 3.59/4
+      time: 2020-2024
+      university: Polytechnique Montréal
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - eng:
+    - degree: Bachelor's in Computer Engineering
+      GPA: 3.59/4
+      time: 2020-2024
+      university: Polytechnique Montreal
+
+courses:
+  - fr:
+    - Structures de données et algorithmes
+    - Programmation orientée objet avancée
+    - Architecture des micro-ordinateurs 
+    - Analyse et conception de logiciels
+    - Méthodes de développement et conception d'application Web
+    - Structures discrètes
+
+  - eng:
+    - Data Structures and Algorithms
+    - Object Oriented Programming
+    - Micro-Computer Architecture
+    - Software Analysis and Design
+    - Web Development and Design
+    - Discrete Mathematics
+
 
 skills:
   - category: Backend
     skill: 
-      - Go
-      - Rust
+      - Java
+      - Python
+      - C/C++
+      - NodeJS Express
+      - MongoDB
   - category: Frontend
     skill:
       - React
+      - Angular
+      - HTML
+      - CSS
       - Typescript
-  - category: DevOps
+  - category: Hardware
     skill:
-      - Docker
-      - Kubernetes 
+      - VHDL
+  - category: others
+    skill:
+      - fr:
+        - Git
+        - Windows
+        - Linux
+        - Design Patterns
+        - Résolution de problèmes
+        - Communication
+      - eng:
+        - Git
+        - Windows
+        - Linux
+        - Design Patterns
+        - Problem Solving
+        - Communication
+ 
 
 # Profile
 profile: |
@@ -49,60 +101,31 @@ profile: |
 
 # Experience
 experience:
-  - role: Software Engineer
+  - role: Technician
     time: 2020-Present
-    company: Google
+    company: Sports-Expert
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
-
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+      Attend to clients, Solve problems, Work under pressure
 
 projects:
-  - title: Cool Project 
+  - title: Scrabble 
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Used HTML, CSS, and TypeScript with the Angular framework to develop an online Scrabble game.
+      The server was developed with Express and the database with MongoDB.
 
-  - title: Cool Project 
+  - title: Miniature Electric Car 
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Created our own libraries with C++ to receive inputs from captors and operate a small electric car.
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+#Athletic Involvement
+handball:
+  - title: Celtiques Handball Club
+    time: 2013-2022
+  
+  - title: National Handball Team
+    time: 2018-2020
+
+  - title: Provincial Handball Team
+    time: 2016-2020
